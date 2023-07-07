@@ -1,13 +1,13 @@
-package com.cerner.patientmanagement;
+package com.cerner.hcs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class PatientManagementSystemApplication {
+public class CernerHcsApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PatientManagementSystemApplication.class, args);
+		SpringApplication.run(CernerHcsApplication.class, args);
 	}
 
 }

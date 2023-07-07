@@ -1,10 +1,10 @@
-package com.cerner.patientmanagement;
+package com.cerner.hcs;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class PatientManagementSystemApplicationTests {
+class CernerHcsApplicationTests {
 
 	@Test
 	void contextLoads() {
