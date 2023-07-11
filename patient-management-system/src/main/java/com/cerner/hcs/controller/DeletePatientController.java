@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.cerner.hcs.exceptions.PatientException;
 import com.cerner.hcs.service.DeletePatientService;
 
 

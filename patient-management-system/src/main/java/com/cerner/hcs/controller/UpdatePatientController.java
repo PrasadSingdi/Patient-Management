@@ -10,7 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.cerner.hcs.entity.Patient;
-import com.cerner.hcs.exceptions.PatientException;
 import com.cerner.hcs.service.UpdatePatientService;
 
 @RestController

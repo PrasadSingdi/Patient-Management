@@ -1,7 +1,4 @@
-	/**
-	 * 
-	 */
-	package com.cerner.hcs;
+package com.cerner.hcs;
 	
 
 
@@ -28,18 +25,13 @@ import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
 
 import com.cerner.hcs.entity.Patient;
-import com.cerner.hcs.exceptions.PatientException;
 import com.cerner.hcs.repository.PatientRepository;
-import com.cerner.hcs.service.impl.SavePatientServiceImpl;
 import com.cerner.hcs.service.impl.DeletePatientServiceImpl;
 import com.cerner.hcs.service.impl.FindPatientServiceImpl;
 import com.cerner.hcs.service.impl.GetAllPatientsServiceImpl;
+import com.cerner.hcs.service.impl.SavePatientServiceImpl;
 import com.cerner.hcs.service.impl.UpdatePatientServiceImpl;
-	
-	/**
-	 * @author Mahesh
-	 *
-	 */
+
 	@ExtendWith(MockitoExtension.class)
 	public class PatientServiceTests {
 	

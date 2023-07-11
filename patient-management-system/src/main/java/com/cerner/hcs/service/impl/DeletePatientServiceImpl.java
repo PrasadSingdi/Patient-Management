@@ -3,7 +3,6 @@ package com.cerner.hcs.service.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.cerner.hcs.exceptions.PatientException;
 import com.cerner.hcs.repository.PatientRepository;
 import com.cerner.hcs.service.DeletePatientService;
 
